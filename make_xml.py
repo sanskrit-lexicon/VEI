@@ -93,7 +93,7 @@ def construct_data(datalines,key1,lnum,page,col,n1,fout=None):
   print out.encode('utf-8')
   exit(1)
  hkey2a = m.group(1) 
- #hkey2a = re.sub(' ([A-Z])',lambda m:' '+m.group(1).lower(),hkey2a) # trial by Dhaval 2 Jan 2016
+ hkey2a = re.sub(' ([A-Z])',lambda m:' '+m.group(1).lower(),hkey2a) # trial by Dhaval 2 Jan 2016
  hom = ''
  #key1a  = transcoder.transcoder_processString(hkey1a,'hk','slp1')
  key2a = transcoder.transcoder_processString(hkey2a,'hk','slp1')
