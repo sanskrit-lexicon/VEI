@@ -39,32 +39,6 @@ def add_tag(x,j):
  x = re.sub(r'%}','</i>',x)
  return x
 
-def unused_adjust_hk(m):
- x = m.group(1)
- # re.split(r'(<[^>]+>)',s)(&.*;)
- outarr = []
- parts = re.split(r'(<[^>]+>)',x) # xml tags
- for part in parts: 
-  if (part == ''):
-   pass
-  elif (part[0] == '<'):
-   outarr.append(part)
-  else:
-   parts1 = re.split(r'(&.*;)',part) # xml entity
-   for part1 in parts1:
-    if (part1 == ''):
-     pass
-    elif (part1[0] == '&'):
-     outarr.append(part1)
-    else: # assume text in hk. Convert to slp1
-     z = re.sub(r'\|','.',part1) # text has non-standard | for danda
-     if z == 'oMM':
-      y = 'o~' # OM
-     else:
-      y = transcoder.transcoder_processString(z,'hk','slp1')
-     outarr.append(y)
- ans = ''.join(outarr)
- return "<s>%s</s>" % ans
 
 def dbgout(fout,s):
  if fout:
@@ -85,7 +59,7 @@ def construct_data(datalines,key1,lnum,page,col,n1,fout=None):
   exit(1)
  head = m.group(1)
  rest = m.group(2)
- m = re.search(reHeadword,head)
+ m = re.search(reHeadword,head)  
  if not m:
   out = "ERROR: headword expected. line = %s\n" % line
   print out.encode('utf-8')
@@ -93,11 +67,11 @@ def construct_data(datalines,key1,lnum,page,col,n1,fout=None):
   print out.encode('utf-8')
   exit(1)
  hkey2a = m.group(1) 
- #hkey2a = re.sub(' ([A-Z])',lambda m:' '+m.group(1).lower(),hkey2a) # trial by Dhaval 2 Jan 2016
- hkey2a = hkey2a.lower() # Second trial to attend to 'NanDarva1yan2a Ba1leya' generation for 'ganDarvAyana bAleya'. See wrong conversion from 'G'->'N'
  hom = ''
  #key1a  = transcoder.transcoder_processString(hkey1a,'hk','slp1')
- key2a = transcoder.transcoder_processString(hkey2a,'hk','slp1')
+ # Changed Jan 9, 2016. key2 is left as AS
+ #key2a = transcoder.transcoder_processString(hkey2a,'hk','slp1')
+ key2a = hkey2a
  head = re.sub('<P>','',head)
  datalines[0] = "%s %s" %(head,rest)
  for line in datalines:
