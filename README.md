@@ -116,5 +116,25 @@ flowchart LR
   X --> A["csl-app web display"]
 ```
 
+## Repository contents
+
+| Path | What it is |
+|---|---|
+| `prefaces/` | Front-matter OCR (title, foreword, preface, map) of the Vedic Index, with Russian translations — see [Front matter](#front-matter-prefaces) below |
+
+## Front matter (`prefaces/`)
+
+The [prefaces/](prefaces/) folder holds a faithful OCR of the front matter of the **Vedic Index of Names and Subjects** (A. A. Macdonell & A. B. Keith; Foreword by Dr. Sampurnanand; Motilal Banarsidass, Varanasi, 2 vols., Preface signed *Oxford, July 18, 1912*).
+
+- **Source:** Cologne Digital Sanskrit Lexicon scans — `https://sanskrit-lexicon.uni-koeln.de/scans/csldev/csldoc/build/dictionaries/prefaces/veipref.html`
+- **Source language: English.** Base pages `veiprefNN.md` are the English text (no `.en.md`); each page has a Russian translation `veiprefNN.ru.md`.
+- **Consolidated editions:** [prefaces/veipref_all.en.md](prefaces/veipref_all.en.md) (English) and [prefaces/veipref_all.ru.md](prefaces/veipref_all.ru.md) (Russian), built reproducibly by [prefaces/build_combined.py](prefaces/build_combined.py).
+- **Index:** [prefaces/README.md](prefaces/README.md) — per-page contents table, signatures/dates, and run notes.
+- 16 pages: Title (1), Foreword 1–2, Preface 1–12, Map of Vedic India (vol. 2). Digitizer running header/footer stamps were omitted from each transcription.
+
+| Date | Change |
+|---|---|
+| Jun 2026 | Front-matter OCR + Russian translation of the prefaces (`prefaces/`) |
+
 ---
 *Issue taxonomy and documentation per the [Cologne issue runbook](https://github.com/sanskrit-lexicon/csl-observatory/blob/main/runbook/cologne-issue-runbook.md).*
