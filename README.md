@@ -1,5 +1,7 @@
 # VEI — Macdonell & Keith *Vedic Index of Names and Subjects* (1912)
 
+_Created: 16-05-2026 · Last updated: 05-07-2026_
+
 Development and correction repository for **A. A. Macdonell and A. B. Keith's *Vedic Index of Names and Subjects***, a specialized index of names and subjects in Vedic literature, part of the [Cologne Digital Sanskrit Lexicon](https://www.sanskrit-lexicon.uni-koeln.de/) (CDSL). The canonical source text lives in [`csl-orig/v02/vei/vei.txt`](https://github.com/sanskrit-lexicon/csl-orig/blob/master/v02/vei/vei.txt) (3,704 index entries); this repository holds the development, correction, and enrichment work.
 
 An encyclopaedic index of Vedic names and subjects rather than a general dictionary; uses per-page footnote markup.
@@ -105,6 +107,28 @@ pie showData
 - Sanskrit text in SLP1 transliteration, wrapped in `{#…#}`; English gloss / italic display text in `{%…%}`.
 - Devanāgarī and IAST display forms are generated at display time, not stored in the source.
 
+## Usage example
+
+Applying a correction to the real first entry of [`vei.txt`](https://github.com/sanskrit-lexicon/csl-orig/blob/master/v02/vei/vei.txt) with `updateByLine.py` (root [`CLAUDE.md`](https://github.com/sanskrit-lexicon/csl-orig/blob/master/CLAUDE.md) "Shared correction pattern"). The real current line 9 (entry 1, headword `aMSu`) reads:
+
+```
+{@Aṃśu.@}¦ — I. Name of a protégé of the Aśvins in the Rigveda.<sup>1</sup>
+```
+
+A change file pairs the old/new lines by line number (illustrating a hypothetical footnote-marker fix, `<sup>1</sup>` moved after the period):
+
+```
+; change_vei_example.txt
+9 old {@Aṃśu.@}¦ — I. Name of a protégé of the Aśvins in the Rigveda.<sup>1</sup>
+9 new {@Aṃśu.@}¦ — I. Name of a protégé of the Aśvins in the Rigveda<sup>1</sup>.
+```
+
+```sh
+python updateByLine.py vei.txt change_vei_example.txt vei_corrected.txt
+```
+
+Illustrative only (no such correction is queued) — the "before" line is the real, current `csl-orig/v02/vei/vei.txt` line 9.
+
 ## How it works
 
 ```mermaid
@@ -138,3 +162,5 @@ The [prefaces/](prefaces/) folder holds a faithful OCR of the front matter of th
 
 ---
 *Issue taxonomy and documentation per the [Cologne issue runbook](https://github.com/sanskrit-lexicon/csl-observatory/blob/main/runbook/cologne-issue-runbook.md).*
+
+_Dr. Mārcis Gasūns_
