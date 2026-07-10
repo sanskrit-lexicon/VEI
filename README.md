@@ -1,16 +1,17 @@
 # VEI — Macdonell & Keith *Vedic Index of Names and Subjects* (1912)
 
-_Created: 16-05-2026 · Last updated: 05-07-2026_
+_Created: 16-05-2026 · Last updated: 11-07-2026_
 
-Development and correction repository for **A. A. Macdonell and A. B. Keith's *Vedic Index of Names and Subjects***, a specialized index of names and subjects in Vedic literature, part of the [Cologne Digital Sanskrit Lexicon](https://www.sanskrit-lexicon.uni-koeln.de/) (CDSL). The canonical source text lives in [`csl-orig/v02/vei/vei.txt`](https://github.com/sanskrit-lexicon/csl-orig/blob/master/v02/vei/vei.txt) (3,704 index entries); this repository holds the development, correction, and enrichment work.
+Development and correction repository for **A. A. Macdonell and A. B. Keith's *Vedic Index of Names and Subjects***, a specialized index of names and subjects in Vedic literature, part of the [Cologne Digital Sanskrit Lexicon](https://www.sanskrit-lexicon.uni-koeln.de/) (CDSL). The canonical source text lives in [csl-orig/v02/vei/vei.txt](https://github.com/sanskrit-lexicon/csl-orig/blob/master/v02/vei/vei.txt) (3,704 index entries); this repository holds the development, correction, and enrichment work.
 
 An encyclopaedic index of Vedic names and subjects rather than a general dictionary; uses per-page footnote markup.
 
 ## Documentation
 
-- [CLAUDE.md](CLAUDE.md) — repository guide and data-format reference.
-- [DATA_DICTIONARY.md](DATA_DICTIONARY.md) — markup tag reference.
-- [CONTRIBUTING.md](CONTRIBUTING.md) · [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [CLAUDE.md](https://github.com/sanskrit-lexicon/VEI/blob/main/CLAUDE.md) — repository guide and data-format reference.
+- [DATA_DICTIONARY.md](https://github.com/sanskrit-lexicon/VEI/blob/main/DATA_DICTIONARY.md) — markup tag reference.
+- [CONTRIBUTING.md](https://github.com/sanskrit-lexicon/VEI/blob/main/CONTRIBUTING.md) · [CODE_OF_CONDUCT.md](https://github.com/sanskrit-lexicon/VEI/blob/main/CODE_OF_CONDUCT.md)
+- Corrections follow the canonical Cologne workflow — see [csl-corrections/docs/correction-workflow.md](https://github.com/sanskrit-lexicon/csl-corrections/blob/main/docs/correction-workflow.md).
 
 ## Timeline
 
@@ -18,6 +19,7 @@ An encyclopaedic index of Vedic names and subjects rather than a general diction
 |---|---|
 | 2025 | Repository activity begins (first tracked issues) |
 | 2026-05 | Issue taxonomy, citation metadata, documentation |
+| 2026-06 | Front-matter OCR + Russian translation of the prefaces |
 
 ## Projects & Milestones
 
@@ -49,13 +51,13 @@ pie showData
 
 | # | Title | Type | Severity | Milestone |
 |---|---|---|---|---|
-| 1 | Links to Panini | link-target | medium | Dictionary to Book |
+| [1](https://github.com/sanskrit-lexicon/VEI/issues/1) | Links to Panini | link-target | medium | Dictionary to Book |
 
 ### Solved
 
 | # | Title | Type | Severity | Milestone |
 |---|---|---|---|---|
-| 2 | [markup] Minor vei.txt Markup Oddities | markup | minor | Structured Data |
+| [2](https://github.com/sanskrit-lexicon/VEI/issues/2) | [markup] Minor vei.txt Markup Oddities | markup | minor | Structured Data |
 
 ## Labels
 
@@ -83,11 +85,12 @@ pie showData
 
 ## Contributors
 
+Repository git history (source-text keyboarding of `vei.txt` itself is maintained upstream in [csl-orig](https://github.com/sanskrit-lexicon/csl-orig) by the Cologne team, incl. funderburkjim and drdhaval2785):
+
 | Contributor | Commits |
 |---|---|
-| gasyoun (Mārcis Gasūns) | 8 |
-| drdhaval2785 | 5 |
-| funderburkjim | 1 |
+| gasyoun (Mārcis Gasūns) | 24 |
+| dependabot[bot] | 1 |
 
 ## Source
 
@@ -99,7 +102,7 @@ pie showData
 - **Language pair**: Sanskrit (Vedic) → English
 - **Size (CDSL headword index)**: 3,704 index entries
 - **License (digital edition)**: CC BY-SA 4.0
-- See [CITATION.cff](CITATION.cff) for machine-readable citation.
+- See [CITATION.cff](https://github.com/sanskrit-lexicon/VEI/blob/main/CITATION.cff) for machine-readable citation.
 
 ## Encoding
 
@@ -109,13 +112,13 @@ pie showData
 
 ## Usage example
 
-Applying a correction to the real first entry of [`vei.txt`](https://github.com/sanskrit-lexicon/csl-orig/blob/master/v02/vei/vei.txt) with `updateByLine.py` (root [`CLAUDE.md`](https://github.com/sanskrit-lexicon/csl-orig/blob/master/CLAUDE.md) "Shared correction pattern"). The real current line 9 (entry 1, headword `aMSu`) reads:
+Applying a correction to the real first entry of [vei.txt](https://github.com/sanskrit-lexicon/csl-orig/blob/master/v02/vei/vei.txt) with `updateByLine.py` (see the canonical [correction workflow](https://github.com/sanskrit-lexicon/csl-corrections/blob/main/docs/correction-workflow.md)). The real current line 9 (entry 1, headword `aMSu`) reads:
 
 ```
 {@Aṃśu.@}¦ — I. Name of a protégé of the Aśvins in the Rigveda.<sup>1</sup>
 ```
 
-A change file pairs the old/new lines by line number (illustrating a hypothetical footnote-marker fix, `<sup>1</sup>` moved after the period):
+A change file pairs the old/new lines by line number (illustrating a hypothetical footnote-marker fix, moving `<sup>1</sup>` after the period):
 
 ```
 ; change_vei_example.txt
@@ -144,16 +147,18 @@ flowchart LR
 
 | Path | What it is |
 |---|---|
-| `prefaces/` | Front-matter OCR (title, foreword, preface, map) of the Vedic Index, with Russian translations — see [Front matter](#front-matter-prefaces) below |
+| [prefaces/](https://github.com/sanskrit-lexicon/VEI/tree/main/prefaces) | Front-matter OCR (title, foreword, preface, map) of the Vedic Index, with Russian translations — see [Front matter](#front-matter-prefaces) below |
+| [vei.xml](https://github.com/sanskrit-lexicon/VEI/blob/main/vei.xml) | Generated CDSL XML build of the index |
+| [make_xml.py](https://github.com/sanskrit-lexicon/VEI/blob/main/make_xml.py) | Helper for the XML build step |
 
 ## Front matter (`prefaces/`)
 
-The [prefaces/](prefaces/) folder holds a faithful OCR of the front matter of the **Vedic Index of Names and Subjects** (A. A. Macdonell & A. B. Keith; Foreword by Dr. Sampurnanand; Motilal Banarsidass, Varanasi, 2 vols., Preface signed *Oxford, July 18, 1912*).
+The [prefaces/](https://github.com/sanskrit-lexicon/VEI/tree/main/prefaces) folder holds a faithful OCR of the front matter of the **Vedic Index of Names and Subjects** (A. A. Macdonell & A. B. Keith; Foreword by Dr. Sampurnanand; Motilal Banarsidass, Varanasi, 2 vols., Preface signed *Oxford, July 18, 1912*).
 
-- **Source:** Cologne Digital Sanskrit Lexicon scans — `https://sanskrit-lexicon.uni-koeln.de/scans/csldev/csldoc/build/dictionaries/prefaces/veipref.html`
+- **Source:** Cologne Digital Sanskrit Lexicon scans — [veipref.html](https://sanskrit-lexicon.uni-koeln.de/scans/csldev/csldoc/build/dictionaries/prefaces/veipref.html)
 - **Source language: English.** Base pages `veiprefNN.md` are the English text (no `.en.md`); each page has a Russian translation `veiprefNN.ru.md`.
-- **Consolidated editions:** [prefaces/veipref_all.en.md](prefaces/veipref_all.en.md) (English) and [prefaces/veipref_all.ru.md](prefaces/veipref_all.ru.md) (Russian), built reproducibly by [prefaces/build_combined.py](prefaces/build_combined.py).
-- **Index:** [prefaces/README.md](prefaces/README.md) — per-page contents table, signatures/dates, and run notes.
+- **Consolidated editions:** [prefaces/veipref_all.en.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref_all.en.md) (English) and [prefaces/veipref_all.ru.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref_all.ru.md) (Russian), built reproducibly by [prefaces/build_combined.py](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/build_combined.py).
+- **Index:** [prefaces/README.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/README.md) — per-page contents table, signatures/dates, and run notes.
 - 16 pages: Title (1), Foreword 1–2, Preface 1–12, Map of Vedic India (vol. 2). Digitizer running header/footer stamps were omitted from each transcription.
 
 | Date | Change |
