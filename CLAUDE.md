@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **VEI** is the development and correction repository for **A. A. Macdonell and A. B. Keith's *Vedic Index of Names and Subjects***, a specialized index of names and subjects in Vedic literature, within the [Cologne Digital Sanskrit Lexicon](https://www.sanskrit-lexicon.uni-koeln.de/) (CDSL).
 
-- **Canonical source text**: [`csl-orig/v02/vei/vei.txt`](https://github.com/sanskrit-lexicon/csl-orig/blob/master/v02/vei/vei.txt) (3,704 index entries) — corrections are applied to that file, not stored here.
+- **Canonical source text**: [`csl-orig/v02/vei/vei.txt`](https://github.com/sanskrit-lexicon/csl-orig/blob/main/v02/vei/vei.txt) (3,704 index entries) — corrections are applied to that file, not stored here.
 - This repository holds **development artifacts**: corrections, markup, comparison, and per-issue working files.
 - An encyclopaedic index of Vedic names and subjects rather than a general dictionary; uses per-page footnote markup.
 
