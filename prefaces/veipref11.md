@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei1_Page_556_Image_0001.png
 source_page: Preface, 8
@@ -14,3 +16,5 @@ headline of each page supplies a summary of the contents of that page. I have ne
 As regards numerals, Roman figures are employed to indicate the main divisions of a work, the subordinate parts being expressed by Arabic figures. Thus 'Rigveda, ii. 3, 5,' means 'book 2, hymn 3, verse 5.' The volume, on the other hand, is referred to by an Arabic numeral, the following figure indicating the page. Thus 'Max Müller, *Rgveda*, 2, 135' means 'volume 2 of Max Müller's edition of the Rigveda, page 135.'
 
 I have avoided abbreviating the titles of books or journals even when they occur often, or are mentioned in the notes
+
+_Dr. Mārcis Gasūns_

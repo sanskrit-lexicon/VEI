@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei1_Page_560_Image_0001.png
 source_page: Preface, 12
@@ -23,3 +25,5 @@ OXFORD,
 ## Order of the Sanskrit Alphabet.
 
 a ā i ī u ū ṛ ṝ ḷ; e ai o au; k kh g gh, ṅ; c ch j jh ñ; ṭ ṭh ḍ ḍh ṇ; t th d dh n; p ph b bh m; y r l v; ś ṣ s h.
+
+_Dr. Mārcis Gasūns_

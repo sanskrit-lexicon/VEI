@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei2_Page_595_Image_0001.png
 source_page: Map of Vedic India
@@ -7,7 +9,7 @@ source_url: https://sanskrit-lexicon.uni-koeln.de/scans/csldev/csldoc/build/dict
 
 # VEDIC INDIA (Map)
 
-*This page is a folding cartographic plate — the "Map of Vedic India" referred to in the Preface (see [veipref13.md](veipref13.md)). Only its title block, legend, scale and a few representative region labels are transcribed here; the geographic detail itself is not reproducible as text.*
+*This page is a folding cartographic plate — the "Map of Vedic India" referred to in the Preface (see [veipref13.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref13.md)). Only its title block, legend, scale and a few representative region labels are transcribed here; the geographic detail itself is not reproducible as text.*
 
 ## Title and legend
 
@@ -31,3 +33,5 @@ Scale of Miles — 50  0  100  200  300
 - Andhra
 
 (Graticule marked in degrees of latitude and longitude; the map spans roughly 20°–36° N and 66°–92° E.)
+
+_Dr. Mārcis Gasūns_

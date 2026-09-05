@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei1_Page_550_Image_0001.png
 source_page: Preface, 2
@@ -12,3 +14,5 @@ Under these circumstances, collaboration appeared the only way out of the diffic
 In 1909, about a year after my return from India, Mr. Keith supplied me with a considerable part of his collectanea, while my *Vedic Grammar* was still passing through the press. The regular printing did not begin till early in 1910, about the time when that work was published. The interval was taken up with preparing a sufficient amount of 'copy' for the printer, as well as with settling various questions of arrangement and typography.
 
 **Mode of Collaboration.**—Our respective shares in the production of the book are, generally stated, as follows: Dr. Keith has collected the material, while I have acted chiefly as an editor, planning the scope of the work, arranging the distribution of text and notes, selecting the type to be used, cutting out, adding to or modifying the matter, weighing the evidence for different interpretations and conclusions, and deciding as to which view, in case of possible alternatives, should be preferred. Having written up in its final form every article contained in the book, I accept the responsibility for every statement and opinion expressed in it. I do not think that Dr. Keith and I have disagreed upon any material point. When we have differed
+
+_Dr. Mārcis Gasūns_

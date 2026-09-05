@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei1_Page_555_Image_0001.png
 source_page: Preface, 7
@@ -14,3 +16,5 @@ I have long had a rooted objection to crowding the letterpress of a book with pa
 The **notes** are placed in two columns, because this arrangement enables the reader to find them more rapidly than any other. They come at the end of, and immediately below, each article. It is only when the article is a long one extending beyond the first page that the notes do not all occupy this position. Those referring to each page are then placed at the foot of that page, and only those referring to the last page come at the end of the article (*cf.*, *e.g.*, 1. **Akṣa**).
 
 The **headlines** are so arranged as to help the reader in finding what he wants quickly, as well as to convey the maximum of information. A glance at the inner corners at the top will show the alphabetical range of the articles occurring in any two pages, the one indicating the first word on the left page, the other the last word on the right page. The rest of the
+
+_Dr. Mārcis Gasūns_

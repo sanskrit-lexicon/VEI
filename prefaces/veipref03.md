@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei1_Page_548_Image_0001.png
 source_page: Foreword, 2
@@ -17,3 +19,5 @@ LUCKNOW,
 Sept. 2, 1958.
 
 **Sampurnanand**
+
+_Dr. Mārcis Gasūns_

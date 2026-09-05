@@ -1,3 +1,5 @@
+_Created: 22-05-2026 · Last updated: 05-09-2026_
+
 ### Location
 
 Counterpart of https://github.com/sanskrit-lexicon/PWG/issues/175 (PWG) and https://github.com/sanskrit-lexicon/PWK/issues/113 (PWK) for `vei.txt`.
@@ -53,3 +55,5 @@ No <ab> or <ls>; <F> and <sup> are the main paired tags.
 ### Severity
 
 `minor`
+
+_Dr. Mārcis Gasūns_

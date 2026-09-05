@@ -1,6 +1,8 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 # Предварительные материалы — полностью (русский)
 
-Per-page files: `veiprefNN.ru.md`. Index: [README.md](README.md).
+Per-page files: `veiprefNN.ru.md`. Index: [README.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/README.md).
 
 ## Contents
 
@@ -261,7 +263,7 @@ a ā i ī u ū ṛ ṝ ḷ; e ai o au; k kh g gh, ṅ; c ch j jh ñ; ṭ ṭh �
 
 <sub>Источник (скан): [vei2_Page_595_Image_0001.png](https://sanskrit-lexicon.uni-koeln.de/scans/csldev/csldoc/build/dictionaries/prefaces/veipref/veipref16.html)</sub>
 
-*Эта страница представляет собой складную картографическую вклейку — «Карту ведийской Индии», упомянутую в Предисловии (см. [veipref13.md](veipref13.md)). Здесь воспроизведены лишь ее заглавный блок, легенда, масштаб и несколько характерных названий областей; сама же географическая детализация не воспроизводима в виде текста.*
+*Эта страница представляет собой складную картографическую вклейку — «Карту ведийской Индии», упомянутую в Предисловии (см. [veipref13.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref13.md)). Здесь воспроизведены лишь ее заглавный блок, легенда, масштаб и несколько характерных названий областей; сама же географическая детализация не воспроизводима в виде текста.*
 
 ### Заглавие и легенда
 
@@ -285,3 +287,5 @@ a ā i ī u ū ṛ ṝ ḷ; e ai o au; k kh g gh, ṅ; c ch j jh ñ; ṭ ṭh �
 - Andhra
 
 (Градусная сетка размечена в градусах широты и долготы; карта охватывает приблизительно 20°–36° с. ш. и 66°–92° в. д.)
+
+_Dr. Mārcis Gasūns_

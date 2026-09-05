@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei1_Page_548_Image_0001.png
 source_page: Foreword, 2
@@ -19,3 +21,5 @@ translation_of: veipref03.md
 2 сентября 1958 г.
 
 **Сампурнананд**
+
+_Dr. Mārcis Gasūns_

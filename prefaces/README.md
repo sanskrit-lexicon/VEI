@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 # VEI — Front matter (prefaces)
 
 Front-matter OCR of the **Vedic Index of Names and Subjects** by **Arthur Anthony Macdonell** and **Arthur Berriedale Keith**, with a Foreword by Dr. Sampurnanand — published by Motilal Banarsidass, Varanasi (Indian Texts Series), 2 vols. The Preface is signed at Oxford, *July 18, 1912*.
@@ -22,31 +24,31 @@ Source scans: Cologne Digital Sanskrit Lexicon
 
 | Language | File |
 |---|---|
-| English (source) | [veipref_all.en.md](veipref_all.en.md) |
-| Russian | [veipref_all.ru.md](veipref_all.ru.md) |
+| English (source) | [veipref_all.en.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref_all.en.md) |
+| Russian | [veipref_all.ru.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref_all.ru.md) |
 
-Built by [build_combined.py](build_combined.py).
+Built by [build_combined.py](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/build_combined.py).
 
 ## Contents
 
 | Page | Section | Vol. | Source | RU |
 |---|---|---|---|---|
-| 01 | Title | 1 | [veipref01.md](veipref01.md) | [ru](veipref01.ru.md) |
-| 02 | Foreword, 1 | 1 | [veipref02.md](veipref02.md) | [ru](veipref02.ru.md) |
-| 03 | Foreword, 2 | 1 | [veipref03.md](veipref03.md) | [ru](veipref03.ru.md) |
-| 04 | Preface, 1 | 1 | [veipref04.md](veipref04.md) | [ru](veipref04.ru.md) |
-| 05 | Preface, 2 | 1 | [veipref05.md](veipref05.md) | [ru](veipref05.ru.md) |
-| 06 | Preface, 3 | 1 | [veipref06.md](veipref06.md) | [ru](veipref06.ru.md) |
-| 07 | Preface, 4 | 1 | [veipref07.md](veipref07.md) | [ru](veipref07.ru.md) |
-| 08 | Preface, 5 | 1 | [veipref08.md](veipref08.md) | [ru](veipref08.ru.md) |
-| 09 | Preface, 6 | 1 | [veipref09.md](veipref09.md) | [ru](veipref09.ru.md) |
-| 10 | Preface, 7 | 1 | [veipref10.md](veipref10.md) | [ru](veipref10.ru.md) |
-| 11 | Preface, 8 | 1 | [veipref11.md](veipref11.md) | [ru](veipref11.ru.md) |
-| 12 | Preface, 9 | 1 | [veipref12.md](veipref12.md) | [ru](veipref12.ru.md) |
-| 13 | Preface, 10 | 1 | [veipref13.md](veipref13.md) | [ru](veipref13.ru.md) |
-| 14 | Preface, 11 | 1 | [veipref14.md](veipref14.md) | [ru](veipref14.ru.md) |
-| 15 | Preface, 12 | 1 | [veipref15.md](veipref15.md) | [ru](veipref15.ru.md) |
-| 16 | Map of Vedic India | 2 | [veipref16.md](veipref16.md) | [ru](veipref16.ru.md) |
+| 01 | Title | 1 | [veipref01.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref01.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref01.ru.md) |
+| 02 | Foreword, 1 | 1 | [veipref02.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref02.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref02.ru.md) |
+| 03 | Foreword, 2 | 1 | [veipref03.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref03.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref03.ru.md) |
+| 04 | Preface, 1 | 1 | [veipref04.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref04.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref04.ru.md) |
+| 05 | Preface, 2 | 1 | [veipref05.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref05.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref05.ru.md) |
+| 06 | Preface, 3 | 1 | [veipref06.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref06.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref06.ru.md) |
+| 07 | Preface, 4 | 1 | [veipref07.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref07.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref07.ru.md) |
+| 08 | Preface, 5 | 1 | [veipref08.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref08.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref08.ru.md) |
+| 09 | Preface, 6 | 1 | [veipref09.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref09.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref09.ru.md) |
+| 10 | Preface, 7 | 1 | [veipref10.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref10.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref10.ru.md) |
+| 11 | Preface, 8 | 1 | [veipref11.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref11.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref11.ru.md) |
+| 12 | Preface, 9 | 1 | [veipref12.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref12.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref12.ru.md) |
+| 13 | Preface, 10 | 1 | [veipref13.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref13.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref13.ru.md) |
+| 14 | Preface, 11 | 1 | [veipref14.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref14.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref14.ru.md) |
+| 15 | Preface, 12 | 1 | [veipref15.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref15.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref15.ru.md) |
+| 16 | Map of Vedic India | 2 | [veipref16.md](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref16.md) | [ru](https://github.com/sanskrit-lexicon/VEI/blob/main/prefaces/veipref16.ru.md) |
 
 **Signatures / dates found:** Preface signed *A. A. MACDONELL, Oxford, July 18, 1912*. The Foreword (pp. 02–03) is by the Hon'ble Dr. Sampurnanand, Chief Minister, Uttar Pradesh.
 
@@ -64,3 +66,5 @@ This was a **resume / disk-only** run: the Cologne scan server was down, so noth
 **Pending.** None — all 16 toctree pages have a scan and a transcription.
 
 </details>
+
+_Dr. Mārcis Gasūns_

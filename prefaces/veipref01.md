@@ -1,3 +1,5 @@
+_Created: 23-06-2026 · Last updated: 05-09-2026_
+
 ---
 source_scan: vei1_Page_545_Image_0001.png
 source_page: Title
@@ -51,3 +53,5 @@ MOTILAL BANARSIDASS
 ORIENTAL PUBLISHERS AND BOOKSELLERS
 
 VARANASI
+
+_Dr. Mārcis Gasūns_
