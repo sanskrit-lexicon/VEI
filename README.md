@@ -1,5 +1,7 @@
 # VEI — Macdonell & Keith *Vedic Index of Names and Subjects* (1912)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23151395.svg)](https://doi.org/10.5281/zenodo.23151395)
+
 _Created: 16-05-2026 · Last updated: 11-07-2026_
 
 Development and correction repository for **A. A. Macdonell and A. B. Keith's *Vedic Index of Names and Subjects***, a specialized index of names and subjects in Vedic literature, part of the [Cologne Digital Sanskrit Lexicon](https://www.sanskrit-lexicon.uni-koeln.de/) (CDSL). The canonical source text lives in [csl-orig/v02/vei/vei.txt](https://github.com/sanskrit-lexicon/csl-orig/blob/main/v02/vei/vei.txt) (3,704 index entries); this repository holds the development, correction, and enrichment work.
